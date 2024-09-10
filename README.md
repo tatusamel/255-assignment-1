@@ -1,6 +1,9 @@
 # Data Mining Assignments - Fall 2024 (CMPE-255)
 
-This repository contains all the deliverables for my Data Mining course (CMPE-255) in Fall 2024. The assignments involve using Python, Colabs, AI pair programming tools (GitHub Copilot), and AutoML platforms like Akkio or JADBio.
+Student Name: Serhat Gundem
+Student Number: 018183828
+
+This repository contains all the deliverables for the 1st assignment of Data Mining course (CMPE-255).
 
 ## Table of Contents
 
@@ -45,8 +48,76 @@ This assignment focused on using AI pair programming tools to build a coding pro
 
 For this assignment, I solved a leetcode problem in C++ using GitHub Copilot, demonstrating its ability to assist in coding both backend and frontend components. The AI pair programming tool helped generate code snippets based on comments and partial code inputs.
 
+### Files:
+
+- `usingLLM.cpp`: This file contains the implementation of the leetcode problem in cpp. (Leetcode 200 Number of islands)
+
 ### Video Demo:
 
 You can find the video demonstration of me using GitHub Copilot [here](https://youtu.be/y9fd3FPSxcQ).
 
-## Assignment 3: AutoML with Akkio or JADBio
+## Assignment 3: AutoML with Akkio
+
+This repository contains the deliverables for **Assignment 3** of the Data Mining course. The project demonstrates an **end-to-end machine learning pipeline** using a zero-code AutoML platform, either **Akkio** or **JADBio**, to train a machine learning model without writing any code.
+
+### Project Overview
+
+In this assignment, I used an AutoML platform to:
+
+- Upload and preprocess a dataset.
+- Visualize key features of the dataset to gain insights.
+- Build and evaluate machine learning models.
+- Make predictions based on the trained models.
+
+#### Tools Used:
+
+- [Akkio](https://akkio.com/)
+- Dataset: titanic dataset from kaggle [dataset](https://www.kaggle.com/competitions/titanic/data)
+
+---
+
+### Workflow
+
+#### 1. Data Selection
+
+For this project, I used the following dataset:
+
+- **Dataset name**: [titanic dataset](https://www.kaggle.com/competitions/titanic/data)
+
+The dataset contains features such as:
+
+- "passengerId", "survived", "name", "sex", "age", "parch", etc.
+
+#### 2. Data Preprocessing
+
+- The Akkio platform automatically handled the data preprocessing steps, including:
+  - **Data Cleaning**: Handling missing values.
+  - **Category Conversion**: Converting categorical variables into numerical format.
+  - **Normalization**: Normalizing data to ensure proper scaling across features.
+
+#### 3. Data Exploration and Visualization
+
+Before training the model, I explored the dataset by generating the following visualizations:
+
+- **Correlation Matrix**: Visualizing the relationships between different features.
+- **Scatter Plots**: Examining relationships between key variables.
+- **Bar Charts**: Showing distributions of categorical data.
+
+These visualizations helped me gain insights into the structure of the data, guiding the model-building process.
+
+#### 4. Model Selection and Training
+
+- I tested multiple machine learning models provided by the platform, including:
+
+  - **Decision Trees**
+  - **Random Forest**
+  - **Logistic Regression**
+
+  The platform automatically trained each model and evaluated its performance based on accuracy, precision, and recall.
+
+- **Model Chosen**: I selected the model Random Forest.
+
+#### 5. Predictions
+
+- After training, I used the model to make predictions on new, unseen data.
+- The predictions were successfully generated.
