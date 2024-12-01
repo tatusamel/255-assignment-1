@@ -2,7 +2,7 @@
 
 ## FLEXIS: FLEXible Frequent Subgraph Mining using Maximal Independent Sets
 
-**Student Name:** Serhat Gundem
+**Student Name:** Serhat Gundem <br>
 **Student Number:** 018183828
 
 - Paper: https://arxiv.org/pdf/2404.01585
